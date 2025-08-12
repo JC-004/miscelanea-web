@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos Basados</title>
+    <!-- Favicon para el sitio web -->
+    <link rel="icon" type="image/png" href="https://static.vecteezy.com/system/resources/thumbnails/022/062/840/small_2x/rejected-cross-mark-icon-in-flat-style-free-png.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        body {
+            background-image: url('https://th.bing.com/th/id/R.7f4e2daf36015a4c06b8193f9a054b2d?rik=SJ2goBlwC5%2ftQQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f-wGMypNwqCmk%2fVJhgIrvEzpI%2fAAAAAAAAVVs%2fFTTajs6LtqI%2fs1600%2fimagenes-amor-bonitas-fondo-pantalla.jpeg&ehk=FUK%2fynibLr99NNY5wulx6FLDFB3e5BvYR4xhKf8jnWc%3d&risl=&pid=ImgRaw&r=0');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Evita que el fondo se mueva al hacer scroll */
+            font-family: 'Press Start 2P', cursive; /* Fuente estilo pixel art */
+            display: flex;
+            flex-direction: column;
+        }
+        .icon-text {
+            text-shadow: 2px 2px 4px black;
+        }
+        .game-icon {
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .game-icon:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+        }
+        
+        /* Estilos para vista móvil (formato TikTok) */
+        @media (max-width: 640px) {
+            .game-grid {
+                grid-template-columns: repeat(2, 1fr); /* 2 columnas en móvil */
+                gap: 1rem;
+            }
+            .game-icon img {
+                width: 5rem; /* 80px */
+                height: 5rem; /* 80px */
+            }
+            h1 {
+                font-size: 2rem; /* Tamaño de título más pequeño para móvil */
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-800 text-white">
+
+    <div class="container mx-auto p-4 md:p-8 flex-grow">
+
+        <h1 class="text-4xl md:text-5xl text-center mb-8 md:mb-12 icon-text text-blue-500">
+          DELUXE Edition
+        </h1>
+
+
+        <!-- Contenedor de la cuadrícula de juegos -->
+        <div class="game-grid grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-10 gap-6 md:gap-8">
+
+            <!-- === INICIO DE UN ICONO DE JUEGO === -->
+            <a href="https://oiia1cat.netlify.app/" target="_blank" rel="noopener noreferrer" class="game-icon flex flex-col items-center space-y-2 text-center no-underline">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/e5/c0/a6e5c09c-551c-0267-9508-2ad5ccada19e/51648.jpg/1200x1200bf-60.jpg" alt="Crossy Castor" class="w-24 h-24 md:w-32 md:h-32 object-cover rounded-2xl border-2 border-white/50">
+                <span class="text-sm md:text-base icon-text">OIIA</span>
+            </a>
+            <!-- === FIN DEL ICONO DE JUEGO === -->                                
+
+            <a href="https://crossycastor.netlify.app/" target="_blank" rel="noopener noreferrer" class="game-icon flex flex-col items-center space-y-2 text-center no-underline">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.2Q-vN9nxE_soF8i44vbRxAHaEo?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Cat Game" class="w-24 h-24 md:w-32 md:h-32 object-cover rounded-2xl border-2 border-white/50">
+                <span class="text-sm md:text-base icon-text">Crossy Castor</span>
+            </a>
+
+            <a href="https://caimanesmunicipales.netlify.app/" target="_blank" rel="noopener noreferrer" class="game-icon flex flex-col items-center space-y-2 text-center no-underline">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.PBcOgcYTE6vRb1n6sHu23QHaE7?rs=1&pid=ImgDetMain&o=7&rm=3" alt="CAIMAN" class="w-24 h-24 md:w-32 md:h-32 object-cover rounded-2xl border-2 border-white/50">
+                <span class="text-sm md:text-base icon-text">Caiman Shooter</span>
+            </a>
+
+
+
+
+
+            <a href="https://aserpobreaotrolado.netlify.app/" target="_blank" rel="noopener noreferrer" class="game-icon flex flex-col items-center space-y-2 text-center no-underline">
+                <img src="https://i.pinimg.com/736x/31/74/67/317467f7e385c2f4df246374684d15bb.jpg" alt="GTA" class="w-24 h-24 md:w-32 md:h-32 object-cover rounded-2xl border-2 border-white/50">
+                <span class="text-sm md:text-base icon-text">A ser pobre a otro lado</span>
+            </a>
+
+
+
+
+
+
+
+
+
+            <a href="https://adivinotuedad.netlify.app/" target="_blank" rel="noopener noreferrer" class="game-icon flex flex-col items-center space-y-2 text-center no-underline">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.PnazzQ_xPZZzVaOrLXrNpQHaK8?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Adivino" class="w-24 h-24 md:w-32 md:h-32 object-cover rounded-2xl border-2 border-white/50">
+                <span class="text-sm md:text-base icon-text">Adivino tu edad</span>
+            </a>
+            
+
+
+
+
+            <a href="https://peruvscolombia.netlify.app/" target="_blank" rel="noopener noreferrer" class="game-icon flex flex-col items-center space-y-2 text-center no-underline">
+                <img src="https://raw.githubusercontent.com/JC-004/Juegos-HTML/main/abreme/imagenes/bolivar.png" alt="PvC" class="w-24 h-24 md:w-32 md:h-32 object-cover rounded-2xl border-2 border-white/50">
+                <span class="text-sm md:text-base icon-text">Perú vs Colombia</span>
+            </a>
+            
+
+
+            <a href="https://gtal6.netlify.app/" target="_blank" rel="noopener noreferrer" class="game-icon flex flex-col items-center space-y-2 text-center no-underline">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/836fc9193520187.65ed6c85244f4.png" alt="GTA 6" class="w-24 h-24 md:w-32 md:h-32 object-cover rounded-2xl border-2 border-white/50">
+                <span class="text-sm md:text-base icon-text">Grand Theft Auto</span>
+            </a>
+
+
+
+            <a href="https://pacman2025.netlify.app/" target="_blank" rel="noopener noreferrer" class="game-icon flex flex-col items-center space-y-2 text-center no-underline">
+                <img src="https://i.pinimg.com/736x/8d/b2/a5/8db2a5fecb4bfa5f6dfa639e85d86b2f.jpg" alt="Pacman" class="w-24 h-24 md:w-32 md:h-32 object-cover rounded-2xl border-2 border-white/50">
+                <span class="text-sm md:text-base icon-text">Pacman</span>
+            </a>
+
+
+            <!-- Agrega más juegos aquí -->
+            <a href="https://pvz2025.netlify.app/" target="_blank" rel="noopener noreferrer" class="game-icon flex flex-col items-center space-y-2 text-center no-underline">
+                <img src="https://raw.githubusercontent.com/JC-004/Juegos-HTML/main/abreme/imagenes/pvz.png" alt="PvZ" class="w-24 h-24 md:w-32 md:h-32 object-cover rounded-2xl border-2 border-white/50">
+                <span class="text-sm md:text-base icon-text">PvZ</span>
+            </a>
+
+
+            <!-- Agrega más juegos aquí -->
+            <a href="https://mylovepet.netlify.app/" target="_blank" rel="noopener noreferrer" class="game-icon flex flex-col items-center space-y-2 text-center no-underline">
+                <img src="https://static.vecteezy.com/system/resources/previews/017/047/832/non_2x/cute-rabbit-illustration-rabbit-kawaii-chibi-drawing-style-rabbit-cartoon-bunny-vector.jpg" alt="My love Pet❤️" class="w-24 h-24 md:w-32 md:h-32 object-cover rounded-2xl border-2 border-white/50">
+                <span class="text-sm md:text-base icon-text">My love Pet❤️</span>
+            </a>
+
+
+        </div>
+    </div>
+
+</body>
+</html>
